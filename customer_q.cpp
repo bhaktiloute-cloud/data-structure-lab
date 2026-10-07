@@ -22,4 +22,5 @@ int main()
   cout<<"orders prosessed:"<<queue[front]<<endl;
   front++;
  }
+ return 0;
 }
