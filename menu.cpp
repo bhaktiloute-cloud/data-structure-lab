@@ -1,4 +1,4 @@
-include<iostream>
+#include<iostream>
 using namespace std;
 
 int main()
@@ -21,7 +21,7 @@ int main()
       if(choice==1)
       {
              cout<<"Enter book ID:";
-             cin>>book[n]
+             cin>>book[n];
              n++;
              cout<<"BOOK ADDED";
       }
@@ -30,7 +30,7 @@ int main()
               cout<<"\nBook in library:\n";
               for(int i=0;i<n;i++)
               {
-                     cout<<book[i]<<end;
+                     cout<<book[i]<<endl;
               }
       }
       else if (choice==3)
@@ -54,7 +54,7 @@ int main()
                      cout<<"BOOK NOT FOUND";
               }
       } 
-      else if(choice==1)
+      else if(choice==4)
       {
               cout<<"THANK YOU!";
       }
