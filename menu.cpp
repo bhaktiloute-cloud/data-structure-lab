@@ -20,10 +20,16 @@ int main()
 
       if(choice==1)
       {
-             cout<<"Enter book ID:";
+           if(n<10)
+           { cout<<"Enter book ID:";
              cin>>book[n];
              n++;
              cout<<"BOOK ADDED";
+           }
+           else
+           {
+                  cout<<"book is full";
+           }       
       }
       else if(choice==2)
       {
