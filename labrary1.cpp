@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-int id1,id2,id3;
-string title1,title2,title3;
+int id1,id2,id3;    //declaring integer variables
+string title1,title2,title3;      //declaring the string variables
 
 cout<<"enter book id1";
 cin>>id1;
