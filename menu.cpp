@@ -49,6 +49,7 @@ int main()
                        if(book[i]==searchID)
                        {
                                  found=true;
+                                 break;
                        }
               }
               if(found)
